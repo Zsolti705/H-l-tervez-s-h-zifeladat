@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hálótervezés</title>
+    <style>
+        .lap {
+            width: 560px;
+            height: 793px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+        .cim {
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .section {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .content {
+            font-size: 16px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="lap">
+        <div class="cim">Hálótervezés - CPM</div>
+        <div class="section">ELŐNYEI</div>
+        <div class="content">
+            A bonyolult, nehezen áttekinthető folyamatokat, folyamatrendszereket irányítani,
+            szervezni, áttekinteni, ellenőrizni a hálódiagramos módszerek alkalmazása nélkül ma már
+            szinte elképzelhetetlen
+        </div>
+        <div class="section">ELEMEI</div>
+        <div class="content">
+            - <strong>Tevékenység:</strong><br>
+            Egy-egy részfeladatot a hálóban tevékenységnek nevezünk.<br>
+            Ezért szokták a CPM-hálót tevékenységre orientált hálótervnek is nevezni.<br>
+            Mindig időtartama van (1 nap, 3 hét, 8 hónap)<br>
+            A nyíl hossza nem arányos a tevékenység idejével<br>
+            Erőforrásigénye van<br>
+            Egyik eseménytől a másikig tart<br>
+            - <strong>Esemény:</strong><br>
+            Azokat a pontokat, amelyek a tevékenység kezdő és befejező határát jelzik, a hálóban<br>
+            eseménynek nevezzük.<br>
+            Jele síkidom: kör, négyzet<br>
+            Mindig időpontot jelöl (1. nap, 3. hét, 8. hónap)<br>
+            Erőforrásigénye nincs<br>
+            A tevékenység kezdő vagy befejező időpontját jelzi.<br>
+            - <strong>Látszattevékenység:</strong><br>
+            Ez nem tevékenység, nem igényel időt, nem igényel erőforrást, csupán a logikai
+            összefüggést, logikai kapcsolatot fejez ki.
+        </div>
+        <div class="section">SZABÁLYOK</div>
+        <div class="content">
+            Két eseményt csak egy tevékenység köthet össze<br>
+            Amennyiben egy esemény bekövetkezésével 2 tevékenység indulhat el, de mindkettőnek befejeződése
+            szükséges ahhoz, hogy egy harmadik tevékenység elkezdődhessen, úgy egy látszattevékenységet iktatunk közbe.<br>
+            A háló hurokmentes legyen<br>
+            Egy eseményből több tevékenység is kiindulhat, illetve egy eseménybe több tevékenység is érkezhet<br>
+            Az események számozása növekvő legyen<br>
+            A háló időben összefüggő és irányfolyamatos legyen<br>
+            Egy kezdő és egy végpont lehet<br>
+        </div>
+    </div>
+</body>
+</html>
