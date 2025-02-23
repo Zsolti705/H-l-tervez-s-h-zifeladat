@@ -1,1 +1,0 @@
-# H-l-tervez-s-h-zifeladat
